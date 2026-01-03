@@ -15,7 +15,8 @@ class Job:
 
     location_text: str = ""
     country: Optional[str] = None          # "CA" or "US"
-    work_mode: str = "unknown"             # "remote" | "hybrid" | "onsite" | "unknown"
+    work_mode: str = "unknown" 
+    remote_region: Optional[str] = None            # "remote" | "hybrid" | "onsite" | "unknown"
     category: Optional[str] = None         # "government" | "university" | "nonprofit" | etc.
 
     date_posted: Optional[str] = None      # ISO date string if available
